@@ -1,0 +1,11 @@
+awakey.pem
+ami-02ce171df9741e76d
+subnet-0feb64b9f890782b7
+sg-01bca64ebb2dc2e96
+t2.micro
+
+secret key = clrSDPvLNkRXGyHoiyVhGQIpxCZGjizUrAcP+CJL
+
+access key = AKIAZCXHYICQSXI7YKFC
+
+aws ec2 run-instances --image-id ami-02ce171df9741e76d --count 1 --instance-type t2.micro --key-name awakey --subnet-id subnet-0feb64b9f890782b7 --security-group sg-01bca64ebb2dc2e96
